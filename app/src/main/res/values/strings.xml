@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Kill VPN</string>
     <string name="tile_label">قطع VPN</string>
+    <string name="tile_confirm">تأیید قطع VPN</string>
     <string name="btn_grant">اجازه‌ی VPN</string>
     <string name="status_ready">آماده است. تایل «قطع VPN» را به Quick Settings اضافه کن.</string>
     <string name="status_need_permission">برای استفاده، اول اجازه‌ی VPN را بده.</string>

@@ -1,4 +1,4 @@
-package com.example.killvpn
+package com.mkop.killvpn
 
 import android.content.Intent
 import android.net.VpnService

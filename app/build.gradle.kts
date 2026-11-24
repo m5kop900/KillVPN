@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.killvpn"
+    namespace = "com.mkop.killvpn"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.killvpn"
+        applicationId = "com.mkop.killvpn"
         minSdk = 24            // Android 7.0
         targetSdk = 34
         versionCode = 1
