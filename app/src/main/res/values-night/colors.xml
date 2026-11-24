@@ -1,0 +1,12 @@
+<resources>
+    <color name="background">#0D1017</color>
+    <color name="surface">#161B24</color>
+    <color name="outline">#262D3A</color>
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#9AA4B2</color>
+    <color name="accent">#6366F1</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="segment_bg">#1F2632</color>
+    <color name="status_ok">#4ADE80</color>
+    <color name="status_warn">#FBBF24</color>
+</resources>

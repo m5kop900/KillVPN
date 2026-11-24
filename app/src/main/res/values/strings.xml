@@ -1,9 +1,36 @@
 <resources>
     <string name="app_name">Kill VPN</string>
-    <string name="tile_label">قطع VPN</string>
-    <string name="tile_confirm">تأیید قطع VPN</string>
-    <string name="btn_grant">اجازه‌ی VPN</string>
-    <string name="status_ready">آماده است. تایل «قطع VPN» را به Quick Settings اضافه کن.</string>
-    <string name="status_need_permission">برای استفاده، اول اجازه‌ی VPN را بده.</string>
-    <string name="status_done">VPN قبلی قطع شد.</string>
+    <string name="tile_label">Kill VPN</string>
+    <string name="tile_confirm">Tap again</string>
+
+    <string name="header_subtitle">Disconnect your VPN from Quick Settings</string>
+
+    <string name="status_title_ready">Ready</string>
+    <string name="status_title_need">Permission needed</string>
+    <string name="status_desc_ready">Kill VPN can disconnect your active VPN.</string>
+    <string name="status_desc_need">Android asks you to approve this once, so the app can replace the current VPN connection.</string>
+    <string name="btn_grant">Grant VPN permission</string>
+    <string name="btn_disconnect_now">Disconnect VPN now</string>
+
+    <string name="tile_card_title">Quick Settings tile</string>
+    <string name="tile_card_desc">Add the tile, then tap it twice to disconnect: the first tap arms it, the second confirms.</string>
+    <string name="tile_steps">Or add it manually: swipe down twice, tap the edit (pencil) icon and drag the “Kill VPN” tile into your panel.</string>
+    <string name="btn_add_tile">Add tile to Quick Settings</string>
+    <string name="tile_added">Tile added.</string>
+    <string name="tile_already">The tile is already added.</string>
+
+    <string name="lang_card_title">Language</string>
+
+    <string name="toast_disconnected">VPN disconnected</string>
+    <string name="toast_no_vpn">No active VPN found</string>
+    <string name="toast_still_active">VPN is still active. It may be set to Always-on or is reconnecting.</string>
+    <string name="toast_no_permission">VPN permission is required. Open the app to grant it.</string>
+
+    <string name="btn_vpn_settings">Open system VPN settings</string>
+    <string name="limitation_note">Always-on or Lockdown VPNs can\'t be disconnected by any app. Turn off “Always-on VPN” in the system settings first.</string>
+    <string name="version_format">Version %1$s</string>
+
+    <!-- Language names are always shown in their own language. -->
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_persian" translatable="false">فارسی</string>
 </resources>

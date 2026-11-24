@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kill VPN</string>
+    <string name="tile_label">قطع VPN</string>
+    <string name="tile_confirm">دوباره بزنید</string>
+
+    <string name="header_subtitle">قطع VPN با یک لمس از Quick Settings</string>
+
+    <string name="status_title_ready">آماده</string>
+    <string name="status_title_need">نیاز به مجوز</string>
+    <string name="status_desc_ready">Kill VPN می‌تواند VPN فعال شما را قطع کند.</string>
+    <string name="status_desc_need">اندروید فقط یک‌بار از شما تأیید می‌گیرد تا برنامه بتواند اتصال VPN فعلی را جایگزین کند.</string>
+    <string name="btn_grant">دادن مجوز VPN</string>
+    <string name="btn_disconnect_now">همین حالا VPN را قطع کن</string>
+
+    <string name="tile_card_title">تایل Quick Settings</string>
+    <string name="tile_card_desc">تایل را اضافه کنید و برای قطع VPN دو بار روی آن بزنید: لمس اول آن را آماده می‌کند و لمس دوم تأیید می‌کند.</string>
+    <string name="tile_steps">یا دستی اضافه کنید: پنل را دو بار به پایین بکشید، روی آیکون ویرایش (مداد) بزنید و تایل «قطع VPN» را به پنل بکشید.</string>
+    <string name="btn_add_tile">افزودن تایل به Quick Settings</string>
+    <string name="tile_added">تایل اضافه شد.</string>
+    <string name="tile_already">تایل قبلاً اضافه شده است.</string>
+
+    <string name="lang_card_title">زبان</string>
+
+    <string name="toast_disconnected">VPN قطع شد</string>
+    <string name="toast_no_vpn">VPN فعالی پیدا نشد</string>
+    <string name="toast_still_active">VPN هنوز فعال است. ممکن است روی Always-on باشد یا دوباره وصل می‌شود.</string>
+    <string name="toast_no_permission">مجوز VPN لازم است. برنامه را باز کنید و مجوز بدهید.</string>
+
+    <string name="btn_vpn_settings">باز کردن تنظیمات VPN سیستم</string>
+    <string name="limitation_note">VPNهای Always-on یا Lockdown را هیچ برنامه‌ای نمی‌تواند قطع کند. اول گزینه‌ی «Always-on VPN» را در تنظیمات سیستم خاموش کنید.</string>
+    <string name="version_format">نسخه %1$s</string>
+</resources>

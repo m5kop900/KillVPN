@@ -24,7 +24,7 @@ class KillTileService : TileService() {
     override fun onClick() {
         super.onClick()
 
-        // هنوز اجازه داده نشده: اپ را باز کن
+        // VPN permission not granted yet: open the app so the user can approve it.
         if (VpnService.prepare(this) != null) {
             val intent = Intent(this, MainActivity::class.java)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -43,11 +43,11 @@ class KillTileService : TileService() {
 
         val now = SystemClock.elapsedRealtime()
         if (now > armedUntil) {
-            // تپ اول: فقط آماده‌سازی، VPN قطع نمی‌شود
+            // First tap: only arm the tile, nothing is disconnected yet.
             armedUntil = now + CONFIRM_WINDOW_MS
             refreshTile(armed = true)
         } else {
-            // تپ دوم در مهلت مشخص: قطع VPN
+            // Second tap inside the window: disconnect.
             armedUntil = 0L
             startService(Intent(this, KillVpnService::class.java))
             refreshTile(armed = false)
@@ -55,9 +55,10 @@ class KillTileService : TileService() {
     }
 
     private fun refreshTile(armed: Boolean) {
+        val localized = LocaleHelper.wrap(this)
         qsTile?.apply {
             state = if (armed) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
-            label = getString(if (armed) R.string.tile_confirm else R.string.tile_label)
+            label = localized.getString(if (armed) R.string.tile_confirm else R.string.tile_label)
             updateTile()
         }
     }
